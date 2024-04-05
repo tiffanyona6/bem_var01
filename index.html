@@ -6,33 +6,55 @@
     <title>Document</title>
   </head>
   <body>
-    <section>
+    <section class="result">
       <h2>Your Result</h2>
-      <div></div>
       <span class="result">76</span>
       <span class="result_often">of 100</span>
-      <h1>Great</h1>
-      <p>Your performance exceed 65% of the people conducting the test here!</p>
+      <span class="result__evaluation">Great</span>
+      <p class="result__tect"> performance exceed 65% of the people conducting the test here!</p>
     </section>
-    <section>
-      <h2>Summary</h2>
-      <div>
-        <ul class="button">
-          <li class="button__style">
-            <a class="button__red" href="#"></a>
-          </li>
-          <li class="button__style">
-            <a class="button__yellow" href="#"></a>
-          </li>
-          <li class="button__style">
-            <a class="button__green" href="#"></a>
-          </li>
-          <li class="button__style">
-            <a class="button__blue" href="#"></a>
-          </li>
-        </ul>
-      </div>
-    
+   
+      
+      
+      <div class="summary">
+        <h2 class="summary__title">Summary</h2>
+        <div class="summary__category summary__category--red">
+          <div class="summary__reaction">
+          <img class="summary__icon" src="./assets/images/icon-reaction.svg" alt="Reaction">
+          <span class='summary__reaction-title'>Reaction</span>
+     
+           <span class="summary__number">80</span>
+           <span class="summary__number summary_number--opacity">100</span>          
+          </div>
+        </div>
+
+        <div class="summary__category summary__category--yellow">
+          <div class="summary__memory">
+          <img class="summary__icon" src="./assets/images/icon-reaction.svg" alt="Memory">
+          <span class='summary__reaction-title'>Reaction</span>
+           <span class="summary__number">92</span>
+           <span class="summary__number summary_number--opacity">100</span>          
+          </div>
+        </div>
+
+          <div class="summary__category summary__category--green">
+            <div class="summary__verbal">
+            <img class="summary__icon" src="./assets/images/icon-reaction.svg" alt="Verbal">
+            <span class='summary__reaction-title'>Verbal</span>
+             <span class="summary__number">61</span>
+             <span class="summary__number summary_number--opacity">100</span>          
+            </div>
+          </div>
+
+            <div class="summary__category summary__category--violet">
+              <div class="summary__visual">
+              <img class="summary__icon" src="./assets/images/icon-reaction.svg" alt="Visual">
+              <span class='summary__reaction-title'>Verbal</span>
+               <span class="summary__number">73</span>
+               <span class="summary__number summary_number--opacity">100</span>          
+              </div>
+            </div>
+              <a href="#">Button</a>
     </section>
   </body>
 </html>
